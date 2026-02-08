@@ -1,0 +1,20 @@
+{
+  "Name": "EdenItem",
+  "Author": "非小酋",
+  "Version": "1.0.0",
+  "Description": "瞎写的，不保证能用",
+  "Website": "",
+  "DependsOn": [],
+  "Permissions": [
+    {
+      "Name": "eden.si",
+      "Default": "true",
+      "Description": "允许使用/si指令查找物品"
+    },
+    {
+      "Name": "eden.ri",
+      "Default": "false",
+      "Description": "允许使用/ri指令移除物品"
+    }
+  ]
+}

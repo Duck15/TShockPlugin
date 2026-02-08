@@ -72,4 +72,9 @@
             </AssemblyAttribute>
         </ItemGroup>
     </Target>
+
+
+    <Import Project="./custom_attach.targets" />
+
+
 </Project>
