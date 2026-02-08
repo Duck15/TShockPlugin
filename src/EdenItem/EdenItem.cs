@@ -24,12 +24,12 @@ public class EdenItem : LazyPlugin
         TShockAPI.Commands.ChatCommands.Add(new Command("eden.si", Commands.SearchItem, "si", "searchitem")
         {
             HelpText = "查找玩家身上是否有指定物品以及数量情况",
-            AllowServer = false
+            AllowServer = true
         });
         TShockAPI.Commands.ChatCommands.Add(new Command("eden.ri", Commands.RemoveItem, "ri", "removeitem")
         {
             HelpText = "移除玩家身上所有的指定物品",
-            AllowServer = false
+            AllowServer = true
         });
     }
 
